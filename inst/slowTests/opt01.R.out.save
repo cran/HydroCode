@@ -1,0 +1,57 @@
+
+R version 3.6.1 (2019-07-05) -- "Action of the Toes"
+Copyright (C) 2019 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R ist freie Software und kommt OHNE JEGLICHE GARANTIE.
+Sie sind eingeladen, es unter bestimmten Bedingungen weiter zu verbreiten.
+Tippen Sie 'license()' or 'licence()' für Details dazu.
+
+R ist ein Gemeinschaftsprojekt mit vielen Beitragenden.
+Tippen Sie 'contributors()' für mehr Information und 'citation()',
+um zu erfahren, wie R oder R packages in Publikationen zitiert werden können.
+
+Tippen Sie 'demo()' für einige Demos, 'help()' für on-line Hilfe, oder
+'help.start()' für eine HTML Browserschnittstelle zur Hilfe.
+Tippen Sie 'q()', um R zu verlassen.
+
+> ## check the performance of optimization
+> require(HydroCode)
+> set.seed(777)
+> bas <- runif(25000,
++              min = 100000,
++              max = 999999)
+> 
+> bas <- as.integer(bas) ## truncates
+> 
+> ## get the time
+> system.time(
++   out1 <- bas[1] %up% bas
++ )
+       User      System verstrichen 
+      0.173       0.025       6.638 
+> 
+> ## check with is.upstream
+> system.time(
++   out2 <- is.upstream(bas[1], bas)
++ )
+       User      System verstrichen 
+      0.099       0.049       6.215 
+> all.equal(out1, out2)
+[1] TRUE
+> 
+> ## check with downstream
+> system.time(
++   out1 <- bas[1] %down% bas
++ )
+       User      System verstrichen 
+      0.105       0.025       6.113 
+> 
+> system.time(
++   out2 <- is.downstream(bas[1], bas)
++ )
+       User      System verstrichen 
+      0.105       0.033       6.114 
+> all.equal(out1, out2)
+[1] TRUE
+> 

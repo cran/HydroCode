@@ -1,0 +1,17 @@
+8d2256595374d9b8c0974e2d45d18895 *DESCRIPTION
+f3fd8aa83ae4e2915b6ab492ff27092d *NAMESPACE
+0f25a7e20d1238a963f6c4347c15ec4f *R/logical.R
+6f6f1b3e74a989414f7d9555bff2f50a *R/rhineCCM2.R
+1e0c5d7d720143e7bda2f0295efd7e53 *R/rhineHYBASlev08.R
+b099f5dad76d2a41a989701cb1230961 *R/upstream.R
+ddfe01c2d691789bda0025b6a7ae32eb *R/zzz.R
+6192ec656e4fbab77283d799e6586ac1 *build/partial.rdb
+41164019f50ff43e7af6b09f614b0551 *data/datalist
+42f1817dd2407a99d3b0a8fe14f9aa1c *data/rhineCCM2.rda
+b77b97fb1de8fbbbaa86618fa91a12d1 *data/rhineHYBASlev08.rda
+9d9f8a470178f00866b48e63bee7feab *inst/slowTests/opt01.R
+ac255c8b19aae4b0a2217f67ec0a23cc *inst/slowTests/opt01.R.out.save
+b73c0a42c40fc8a9e62e97994bf8d4ea *man/is.odd.Rd
+c205d35a71a5a5881ee7475b73e3f867 *man/is.upstream.Rd
+300388d2a1eaa35ecb1668ca18851270 *man/rhineCCM2.Rd
+8ef45c9694b69b9bf84f180c3a061718 *man/rhineHYBASlev08.Rd
