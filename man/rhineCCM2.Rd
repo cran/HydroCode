@@ -32,7 +32,7 @@ the fields of the attribute table were shortened.
 ## Be patient, this might take a while.
 system.time(fps <- 973842223 \%up\% rhineCCM2$PFAFSTETTER)
 flowpath <- subset(rhineCCM2, subset = fps)
-plot(flowpath)
+sp::plot(flowpath)
 
 ## does parallel threats increase the speed
 ## and provide the same results?

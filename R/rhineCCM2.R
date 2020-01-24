@@ -32,6 +32,7 @@
 #' Publications Office: Luxembourg, \doi{10.2788/35907}.
 #'
 #' @keywords datasets
+#' @import sp
 #' @examples
 #' \donttest{
 #' ## get the flowpath from a head catchment to
@@ -39,7 +40,7 @@
 #' ## Be patient, this might take a while.
 #' system.time(fps <- 973842223 %up% rhineCCM2$PFAFSTETTER)
 #' flowpath <- subset(rhineCCM2, subset = fps)
-#' plot(flowpath)
+#' sp::plot(flowpath)
 #'
 #' ## does parallel threats increase the speed
 #' ## and provide the same results?

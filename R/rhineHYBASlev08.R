@@ -61,6 +61,7 @@
 #' 2171--2186, \doi{10.1002/hyp.9740}.
 #'
 #' @keywords datasets
+#' @import sp
 #' @examples
 #' \donttest{
 #' ## Catchment of gauge Mainz / Rhein
@@ -69,8 +70,8 @@
 #' options("hydrocode.alloddorzero" = TRUE)
 #' ok <- is.downstream(23263070, rhineHYBASlev08$PFAF_ID)
 #' MzBas <- subset(rhineHYBASlev08, subset = ok)
-#' plot(rhineHYBASlev08)
-#' plot(MzBas, add = TRUE, col = "red")
+#' sp::plot(rhineHYBASlev08)
+#' sp::plot(MzBas, add = TRUE, col = "red")
 #'
 #' ## get catchment size
 #' ## AEO : 98206 km2 according to website

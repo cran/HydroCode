@@ -63,7 +63,7 @@ is.upstream(8835, dwn)
 8835 \%up\% dwn
 
 ## this will produce errors
-\donttest{
+\dontrun{
 is.upstream("12h", 123)
 is.upstream(12.4, 123)
 }
