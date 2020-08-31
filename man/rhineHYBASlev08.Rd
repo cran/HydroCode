@@ -4,7 +4,8 @@
 \name{rhineHYBASlev08}
 \alias{rhineHYBASlev08}
 \title{HydroBASINS Level 08 Data of the Rhine Catchment}
-\format{An Object of class SpatialPolygonsDataFrame with 289 features.
+\format{
+An Object of class SpatialPolygonsDataFrame with 289 features.
  The attribute table comprises 13 fields:
  \describe{
    \item{HYBAS_ID}{factor, unique basin identifier}
@@ -35,7 +36,8 @@
    (i.e. counting upwards from 1 in the original shapefile).}
  }
  The PROJ.4 string is
- \code{+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84+towgs84=0,0,0}}
+ \code{+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84+towgs84=0,0,0}
+}
 \source{
 This product rhineHYBASlev08 incorporates data from the HydroSHEDS database which is (C) World
 Wildlife Fund, Inc. (2006-2013) and has been used herein under license. WWF has not evaluated the data as altered and

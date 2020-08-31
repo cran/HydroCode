@@ -4,14 +4,16 @@
 \name{rhineCCM2}
 \alias{rhineCCM2}
 \title{CCM2 River and Catchment of the Rhine Catchment, Rivers only}
-\format{An Object of class SpatialLinesDataFrame with 30343 features.
+\format{
+An Object of class SpatialLinesDataFrame with 30343 features.
  The attribute table comprises 2 fields:
  \describe{
    \item{WSO1_ID}{int, unique river segment identifier}
    \item{PFAFSTETTER}{num, Pfafstetter code according to CCM2}
  }
  The PROJ.4 string
- is \code{+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0}.}
+ is \code{+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0}.
+}
 \source{
 CCM River and Catchment Database
 (C) European Commission - JRC, 2007.
