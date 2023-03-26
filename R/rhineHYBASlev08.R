@@ -63,7 +63,7 @@
 #' @keywords datasets
 #' @import sp
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' ## Catchment of gauge Mainz / Rhein
 #' ## HYBAS uses a modified version of Pfafstetter
 #' op.old <- options()

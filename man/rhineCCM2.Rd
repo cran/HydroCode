@@ -28,7 +28,7 @@ The subset consists of rivers within the Rhine basin, i.e.
 the fields of the attribute table were shortened.
 }
 \examples{
-\donttest{
+\dontrun{
 ## get the flowpath from a head catchment to
 ## the sea
 ## Be patient, this might take a while.

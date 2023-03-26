@@ -56,7 +56,7 @@ The subset consists of subbasins within the Rhine basin, i.e.
 \code{MAIN_BAS = 2080023010}.
 }
 \examples{
-\donttest{
+\dontrun{
 ## Catchment of gauge Mainz / Rhein
 ## HYBAS uses a modified version of Pfafstetter
 op.old <- options()

@@ -34,7 +34,7 @@
 #' @keywords datasets
 #' @import sp
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' ## get the flowpath from a head catchment to
 #' ## the sea
 #' ## Be patient, this might take a while.
